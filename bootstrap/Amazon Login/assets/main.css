@@ -1,0 +1,48 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.border {
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.bt {
+    padding: 4px;
+    border-color: darkgray;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.txt {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+
+.grad1 {
+    background: linear-gradient(yellow, orange);
+}
+
+.grad2 {
+    background: linear-gradient(to right, white, #dddbdb, white);
+    border-top: 1px solid #bebdbd;
